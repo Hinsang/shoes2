@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/*초기화 시작*/
+*{
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+/*초기화 끝*/
+/* 전체 시작*/
+#main {
+	margin: 0 auto;
+	width: 1200px;
+	height: 1000px;
+	border: 1px solid black;
+	text-align: center;
+}
+/* 전체 끝*/
+/*form_component 시작*/
+#form_component{
+	border: 1px solid black;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	font-weight: 700;
+	font-size: 20px;
+}
+/*form_component 끝*/
+/*form_component_title 시작*/
+#form_component_title{
+	line-height: 80px;
+	font-weight: 700;
+	font-size: 30px;
+}
+/*form_component_title 끝*/
+/* input태그, 버튼 시작*/
+.ntitle , .ncontent{
+	border: 1px solid black;
+}
+
+.ntitle{
+	width: 350px;
+}
+.ncontent{
+	width: 350px;
+	height: 230px;
+}
+
+#content_component{
+	margin-top: 20px;
+}
+
+#content_context{
+	vertical-align: top;
+}
+
+#write_button{
+	width: 90px;
+	height: 90px;
+	margin-left:40px;
+	border: 1px solid black;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+#reset_button{
+	width: 90px;
+	height: 90px;
+	margin: 10px;
+	border: 1px solid black;
+	font-size: 20px;
+	font-weight: 700;	
+}
+/* input태그, 버튼 끝*/
